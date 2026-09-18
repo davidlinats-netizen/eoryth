@@ -39,9 +39,12 @@ export default function Home() {
               Dashboard
             </div>
 
-            <div className="px-4 py-3 text-neutral-500">
-              Live Jobs
-            </div>
+<a
+  href="/live-jobs"
+  className="block rounded-lg px-4 py-3 text-neutral-500 hover:bg-neutral-100"
+>
+  Live Jobs
+</a>
 
             <div className="px-4 py-3 text-neutral-500">
               Recommended
